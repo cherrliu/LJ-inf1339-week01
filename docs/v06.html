@@ -33,11 +33,11 @@
                 if (remainder == 1)
                  {output = '1' + output}
                 else
-                 {output = '0' + output}
+                 {output = '0' + output
+                 quotient = Math.floor(quotient/2)}
                 //Math is a set of tools for doing math. We
                 //access them like functions. Their names are
                 //always Math.something
-                quotient = Math.floor(quotient/2)
             }
             //The above algorithm leaves off the leading zeros
             //and fails completely on converting 0 base 10. To
